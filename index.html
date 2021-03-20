@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Lavish Resume</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="https://docs.google.com/document/d/1YxlKkv36S_5uJndhneSqXTDOO14d7d79wL9Y4V1bI5w/edit?usp=sharing">Resume PDF</a></li>
+            <li><a href="https://lavishgarg.medium.com/">Blogs</a></li>
+            <li><a href=""><i class="fa fa-th "></i></a></li>
+            <li><a href="">Experience</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="logo-block"><img src="./logo.png" alt=""></div>
+        </div>
+        <div class="row">
+            <form action="" id="main" method="POST">
+                <div class="input-block">
+                    <i class="fa fa-search"></i>
+                    <input type="text" name="serach-box" id="search-box">
+
+                    <i class="fa fa-microphone"></i>
+                </div>
+                <div class="btn-cnt">
+                    <input type="submit" name="Search" id="Search" value="     More     ">
+                    <input type="submit" name="Search" id="Search" value="     About Me    ">
+                </div>
+            </form>
+        </div>
+        <div class="row">
+            <div class="languages">Skills in: Web Development Pentesting Java Blockchain Cyber Security Data Science AI & ML</div>
+        </div>
+    </div>
+    <footer>
+        <div class="row">
+           <div class="text"> India</div>
+        </div><hr style="background-color:grey">
+        <div class="row bottom">
+            <ul>
+                <li>Advertising</li>
+                <li>Business</li>
+                <li>About</li>
+                <li>How search works</li>
+            </ul>
+            <ul class="right">
+                <li>Privacy</li>
+                <li>Terms</li>
+                <li>Settings</li>
+            </ul>
+        </div>
+
+    </footer>
+</body>
+
+<script>
+    document.querySelector('#main').onsubmit = function(e){
+        e.preventDefault();
+        var search =document.querySelector('#search-box').value;
+        location.href=('https://lavish-garg.github.io/lavishgarg3.github.io/index.html')
+    };   
+</script>
+
+</html>
